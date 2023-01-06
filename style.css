@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.background-image {
+  background-image: url("images/donation13.jpg");
+  height: 669px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.donate-text {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding-top: 200px;
+}
+
+.donate-text h1 {
+  padding-bottom: 30px;
+  font-size: 60px;
+}
+
+.donate-text p {
+  padding-bottom: 30px;
+}
+
+.btn-donate {
+  color: #ffffff;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #ff5959;
+}
+
+.donation {
+  margin-top: 130px;
+  text-align: center;
+}
+.donation-desc {
+  margin-top: 15px;
+  color: #707070;
+}
+.donation-title {
+  font-size: 45px;
+}
+.amount-selection {
+  margin-top: 50px;
+  text-decoration: none;
+}
+.amount {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+}
+.amount-taka {
+  border: none;
+  padding: 43px 25px;
+  margin-left: 22px;
+  font-size: 30px;
+  color: #707070;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-top: 43px;
+  font-size: 30px;
+  background-color: #fafafa;
+  box-sizing: border-box;
+}
+.amount-taka:hover {
+  color: #ff5959;
+  background-color: #ffeeee;
+}
+.other-donation {
+  margin-top: 60px;
+  font-size: 18px;
+  color: #b3b3b3;
+}
+#line {
+  width: 765px;
+  margin-left: 30%;
+  margin-top: 9.5px;
+  color: #dadada;
+}
+
+/* ------------donate plan------------- */
+.donate-plan {
+  justify-content: center;
+  margin-top: 130px;
+  text-align: center;
+}
+.donate-plan-title {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+}
+.donate-plan-desc {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: #707070;
+}
+
+/* ------------------donate details----------------- */
+.donation-details {
+  display: flex;
+  justify-content: center;
+}
+.details-card {
+  height: 360px;
+  width: 352px;
+  background-color: #4f9da635;
+  margin-left: 24px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.food {
+  margin-top: 75px;
+  margin-left: 23px;
+}
+.card-desc {
+  padding-top: 15px;
+  padding-left: 23px;
+  padding-right: 22px;
+  padding-bottom: 25px;
+  color: #707070;
+}
+.details-title {
+  font-size: 24px;
+  color: #121212;
+  margin-bottom: 16px;
+}
+.card-2 {
+  background-color: white;
+}
+.card-3 {
+  background-color: #fff4d6;
+}
+/* ------------------donate details----------------- */
+
+/* --------------contribute section----------- */
+.contribute {
+  display: flex;
+  margin-top: 130px;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  justify-content: space-between;
+}
+.contribute-img {
+  height: 477px;
+  width: 456px;
+  border-radius: 5px;
+}
+.contribute-details {
+  height: 493px;
+  width: 374px;
+}
+.contribute-title {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.contribute-desc {
+  margin-bottom: 20px;
+  color: #707070;
+  font-size: 18px;
+}
+.desc2 {
+  margin-bottom: 30px;
+}
+.contribute-btn {
+  margin-top: 30px;
+  background-color: #ff5959;
+  color: white;
+  padding: 16px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+}
+.contribute2 {
+  margin-top: 100px;
+}
+/* --------------contribute section end----------- */
+
+/* --------------sub section------------- */
+.sub-section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-box {
+  display: flex;
+  width: 809px;
+  height: 200px;
+  background-color: #fff4d6;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+#email {
+  padding-top: 14px;
+  padding-left: 17px;
+  padding-bottom: 14px;
+  height: 48px;
+  width: 275px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+.sub-btn {
+  position: relative;
+  left: -5px;
+  width: 175px;
+  height: 48px;
+  color: white;
+  background-color: #ff5959;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  font-size: 16px;
+  padding: 14px 43px;
+}
+/* --------------sub section end------------- */
+
+/* ------------footer--------------- */
+
+footer {
+  height: 177px;
+  width: 100%;
+  background-color: #0b0d17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-title {
+  position: absolute;
+  color: #ff5959;
+  font-size: 30px;
+}
+.footer-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+  color: white;
+}
+/* ------------footer end--------------- */
